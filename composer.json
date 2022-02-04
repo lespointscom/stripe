@@ -23,5 +23,6 @@
             "Lespointscom\\StripeDecoration\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "type": "library"
 }
