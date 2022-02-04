@@ -1,0 +1,21 @@
+{
+    "name": "lespointscom/stripe-decoration",
+    "description": "Stripe Decorator class for easy Stripe integration",
+    "type": "library",
+    "require": {
+        "stripe/stripe-php": "7.107.0"
+    },
+    "license": "Privately owned",
+    "autoload": {
+        "psr-4": {
+            "Lespointscom\\StripeDecoration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "georges jean-denis",
+            "email": "georgesjeandenis@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
