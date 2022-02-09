@@ -58,7 +58,7 @@ class StripeDecorated
         $this->lang_label         = $this->lang== "fr" ? "fr":"en";
         $this->stripe_label		  = $this->stripe_live == 1 || $this->stripe_live == 2 ? "LIVE":"TEST";
         $this->stripe_whois       = $this->stripe_live == 1 ? "AMC" : ( $this->stripe_live == 2 ? "GEORGES" : "TEST" );
-        $this->stripe_key         = $this->stripe_live == 1 ? "pk_live_51JEOPAL4uUsEm9slpFuTo6UK2bjgLVslUF7cGJ4w1zZfEeiIrnX274ABOjTJKqjubBGJioxFKqewMQdkf9f3wSqc00D7gUUfZ5" : ( $this->stripe_live == 2 ? "pk_live_51JzgKMGng1qmQfDnqRkKbQOOTex1ZTY8HOdZFmj0nbNAp55xo5mswIi8Jpp5q9855eWMux8CuODdkpYeCiSaMyyU009qArXLH3" : "pk_test_51JzgKMGng1qmQfDneDidNNGPp4AWCSIc601iAvEzEdMtV96CR5LaGVmGc9Q9kDZ2Z9y45ikJzxJswVAyTPbVzfKp00FqWUUHb3" );
+        $this->stripe_key         = $this->stripe_live == 1 ? "pk_live_XXX" : ( $this->stripe_live == 2 ? "pk_live_XXX" : "pk_test_XXX" );
         $this->message_marked     = $this->stripe_live == 1 ? "ATTENTION! L'ARGENT ENTRERA DANS LE COMPTE EN BANQUE ASSOCIÉ AU COMPTE STRIPE D'« ANNE MARIE CHAGNON INC. »" : ( $this->stripe_live == 2 ? "ATTENTION! L'ARGENT ENTRERA DANS LE COMPTE EN BANQUE DE GEORGES" : "rien ne sera transféré" );
         $this->message_intro      = $this->stripe_live == 1 || $this->stripe_live == 2 ? "LA PAGE EST LIVE : " : "LA PAGE EST EN MODE TEST : ";
         $this->message_color      = $this->stripe_live == 1 ? "#fa6" : ( $this->stripe_live == 2 ? "#f00" : "#0f0" ) ;
@@ -361,9 +361,9 @@ class StripeDecorated
 		/*
 			//JUST TO MAKE CLEAR :
 
-			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 //AMC
-			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 //GEORGES
-			sk_test_51JzgKMGng1qmQfDnt5o9MbOJBBJ2j9SVz3nmSfWPV01YWHrC9kAyTtdPnrcfhNhm1TzYyJZgsns2rGEV6zMxoikd0089W1fJo3 //SANDBOX
+			sk_live_XXX //AMC
+			sk_live_XXX //GEORGES
+			sk_test_XXX //SANDBOX
 		*/
 
 		if( isset($_POST) && isset($_POST["stripe_amount"]) )
