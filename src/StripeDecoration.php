@@ -371,7 +371,7 @@ class StripeDecorated
 			try
 			{
 				$stripe_live	    = $_POST["stripe_live"];
-				$stripe_key		    = $stripe_live == 1 ?"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": ( $stripe_live == 2 ? "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" : "sk_test_51JzgKMGng1qmQfDnt5o9MbOJBBJ2j9SVz3nmSfWPV01YWHrC9kAyTtdPnrcfhNhm1TzYyJZgsns2rGEV6zMxoikd0089W1fJo3" );
+				$stripe_key		    = $stripe_live == 1 ?"sk_live_XXX": ( $stripe_live == 2 ? "sk_live_XXX" : "sk_test_XXX" );
 
 				\Stripe\Stripe::setApiKey($stripe_key);
 
