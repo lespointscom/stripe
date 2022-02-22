@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lespointscom\\": "src"
+            "Lespointscom\\": "src/"
         }
     },
     "minimum-stability": "dev",
