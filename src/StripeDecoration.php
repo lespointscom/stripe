@@ -1,14 +1,14 @@
 <?php
 
-namespace StripeDecorated;
+namespace StripeDecoration;
 
 /**
- * Class StripeDecorated.
+ * Class StripeDecoration.
  * https://stripe.com/docs/payments/accept-a-payment-charges //START STRIPE HERE!
  * @copyright Copyright (c) 2021 Georges Jean-denis: georgesjeandenis@hotmail.com
  * @license   MIT License 
  */
-class StripeDecorated
+class StripeDecoration
 {
     public $version				= null;
     public $root				= null;
