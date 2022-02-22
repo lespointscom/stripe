@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "StripeDecoration\\": "src"
+            "Lespointscom\\": "src"
         }
     },
     "minimum-stability": "dev",
