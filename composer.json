@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "StripeDecoration\\": "src/"
+            "StripeDecoration\\": "src/StripeDecoration/"
         }
     },
     "minimum-stability": "dev",
